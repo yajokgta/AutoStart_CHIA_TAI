@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 30, 39.625" name="CHIATAI">
+  <DataContextMoniker Name="/CHIATAIDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2494ef4e-ed02-48e8-893a-0e1b83e7276d" absoluteBounds="0.75, 0.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4457526-13e8-4fd4-a050-9d0238cb6e50" absoluteBounds="0.765, 1.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc5d20cc-c8a9-4f43-9620-45a07fed5078" absoluteBounds="3.75, 0.75, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTViewEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d058acb-991a-474c-9d35-451233ed4e1d" absoluteBounds="3.765, 1.21, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8fcbbfe-19ac-4022-94ab-bafede572230" absoluteBounds="6.75, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTApprovalMatrix" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70315420-4834-409c-9e66-ea007ac95b48" absoluteBounds="6.765, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="79ef73ae-2a61-4e47-84d5-b48a7cf1a9a4" absoluteBounds="0.75, 6.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTApprovalMatrixItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8242069-243a-4385-942a-da6167cbec02" absoluteBounds="0.765, 7.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="620927b0-7fa3-472f-97fc-16868154f425" absoluteBounds="3.75, 6.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTAuthorizedMenu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cbc8da1c-e678-4fdd-a7e3-c0143829c7ce" absoluteBounds="3.765, 7.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53458d43-db4c-45be-ac2d-a2de10b310c7" absoluteBounds="6.75, 4.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTBU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac1e86cc-4f30-47c9-bfe7-abc208bf4712" absoluteBounds="6.765, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7a8198a-aef6-49e0-a749-15697f926b83" absoluteBounds="6.75, 8.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTChecklist" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1673f6dd-fa69-4559-862e-e292b613c7ea" absoluteBounds="6.765, 9.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="39cc0187-13dc-4d70-a77c-2661f91f5411" absoluteBounds="9.75, 0.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTCompany" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ff95432-e93e-43d5-98b4-1a7dbd71f9f6" absoluteBounds="9.765, 1.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72ee1c68-95b4-4ba3-9ab2-f7989153987b" absoluteBounds="9.75, 5.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTDepartment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d548287-25f1-409b-b87d-3c059aec6b74" absoluteBounds="9.765, 6.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7283167b-f820-4827-afee-e3dad2a9e5bf" absoluteBounds="9.75, 10.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTDivision" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19a2ba47-0978-4e1c-977b-c27b616d35f1" absoluteBounds="9.765, 11.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3bdd7d3-11d8-4ecd-9954-c2c04ae7ead5" absoluteBounds="0.75, 11.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTEmailTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b91c12b4-1678-48bc-a57a-d4289d270def" absoluteBounds="0.765, 12.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3ad7508-f3ed-42ce-a9dd-cbbb2bf2afa5" absoluteBounds="12.75, 0.75, 2, 5.4246240234374987">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61739cd0-896f-44c7-93c2-4a98de79e433" absoluteBounds="12.765, 1.21, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="568c02a2-fc8a-4a11-a942-978c788f2d26" absoluteBounds="3.75, 12.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTInspectionLocation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="144b0393-c802-4289-a198-b637458da4e9" absoluteBounds="3.765, 13.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2588d68-d7e1-4623-9edc-42eb8133c744" absoluteBounds="12.75, 7.75, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTIO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e9f322f-f4ac-4e56-a21b-1c91e2c9ce2c" absoluteBounds="12.765, 8.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8600d853-592e-4e7e-ab94-644e0fdc8ded" absoluteBounds="12.75, 10.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTMasterData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c84a9b79-10bc-44f4-baf8-c515abb093a8" absoluteBounds="12.765, 11.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b2988a8-02b3-4197-9857-aaf7b9a13064" absoluteBounds="3.75, 14.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTMaterial" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b813113-eb7d-4689-bf82-994310c9760b" absoluteBounds="3.765, 15.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4320cd71-5f54-4538-b95b-2b5539d0f60a" absoluteBounds="6.75, 14.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTPDFTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1fe7bcb-f809-4e34-8c11-2011576195a4" absoluteBounds="6.765, 15.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a4a27d4-da3f-4915-8edf-5bd99ca03c1b" absoluteBounds="15.75, 0.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTPermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebd98ae1-d4c0-417f-b82c-b92aa7ba93e4" absoluteBounds="15.765, 1.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2e55a8d-6542-401b-a325-23371c07a564" absoluteBounds="15.75, 5.75, 2, 2.9247054036458318">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTPosition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7753c2eb-1685-482c-adef-6a282e0a8187" absoluteBounds="15.765, 6.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f124dd70-3029-4ae9-aadf-52a848217e89" absoluteBounds="15.75, 9.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTPositionLevel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d02aec32-947d-49a1-ad41-182b0bbb715c" absoluteBounds="15.765, 10.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1e2412a-d613-4dab-9820-ca4a4c4c96db" absoluteBounds="9.75, 15.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTProject" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c94f9d7-9f33-4fd0-ba9c-f20396e4498c" absoluteBounds="9.765, 16.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2237201f-154d-418d-950e-927903abdb7b" absoluteBounds="12.75, 15.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTProvince" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0389796e-e0f4-4098-b38c-ff73408c70be" absoluteBounds="12.765, 16.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="21c201ac-5eec-45f4-b469-b4e5a43dadc0" absoluteBounds="15.75, 13.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTReleasedDocumentTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5019770d-ec80-4b38-8ea0-26aabfb975d1" absoluteBounds="15.765, 14.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fe6b1f2-4205-42c4-961c-82b13bcd5123" absoluteBounds="18.75, 0.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTReportTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46b66047-add0-4488-a2bd-be13c714572c" absoluteBounds="18.765, 1.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e78674cd-df1c-4ffa-a7f7-4bc782946b25" absoluteBounds="0.75, 18.75, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b8d0f0b-ba22-4ff8-a2f0-5a1809b154f6" absoluteBounds="0.765, 19.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c869001d-c485-41e3-8859-bc3109bbd8f1" absoluteBounds="3.75, 18.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTRolePermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1eef7084-79b5-4544-b834-d2bf9d003747" absoluteBounds="3.765, 19.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e619c82b-8bbe-4ff3-ac25-e4e3b3597902" absoluteBounds="18.75, 5.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTSEC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6283447-04c7-4782-8c13-6184b5cc18d8" absoluteBounds="18.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e70e6f86-0df0-442e-a5fd-3934d68e9baa" absoluteBounds="18.75, 8.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTSubCon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac0b3ab2-8e90-4e60-afdb-9dfe05906a1b" absoluteBounds="18.765, 9.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e6bef9d-6b21-47a6-9d4b-907bfd9f7c17" absoluteBounds="18.75, 11.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTSystemNumber" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aff750e5-d908-4b60-9f02-d84869e1fc8c" absoluteBounds="18.765, 12.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed59eb92-9b97-4e44-8c6b-de3fcee91b28" absoluteBounds="12.75, 18.75, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTTemLineApprove" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e48190e-1b02-492d-b637-c53c4dd0e962" absoluteBounds="12.765, 19.21, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08962590-4258-4e5e-b175-795117e7e46d" absoluteBounds="18.75, 15.75, 2, 8.3091455078125023">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2bfb13a2-05cd-4ca5-b568-4a9f2964d81e" absoluteBounds="18.765, 16.21, 1.9700000000000002, 7.7491455078125009" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3269be9f-c236-4f9b-b9ef-519c60f06e3f" absoluteBounds="6.75, 19.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTTemplateLogic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39983ec7-3d95-499a-9d2a-fd4c3d867407" absoluteBounds="6.765, 20.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25739027-3588-4ad7-b736-ca270b145e7a" absoluteBounds="21.75, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTTemSpecificApprover" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45303fad-db28-4ba7-8423-25a073c6fdfd" absoluteBounds="21.765, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5fe1fff-030f-481d-978c-9e86e7f40c76" absoluteBounds="21.75, 5.75, 2, 4.0785139973958318">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTUserManual" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8736917b-3ed9-44b7-9cdd-9602bfedd6b1" absoluteBounds="21.765, 6.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="79bc147a-7627-4f8f-bbd1-c77dbfa67f6e" absoluteBounds="21.75, 10.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/MSTUserPermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92a30bc6-eb77-4644-b873-5f37eaf8f198" absoluteBounds="21.765, 11.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="924452d6-f24e-4202-a15f-6a409a856348" absoluteBounds="15.75, 18.75, 2, 8.5014469401041666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNActionHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75d2531c-d40e-4980-ad67-3b21446cf220" absoluteBounds="15.765, 19.21, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b9765b5-722e-436d-8243-b2b8d476670c" absoluteBounds="0.75, 15.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNUserTransaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a6076e6-506b-4a0b-a712-0ae90ff7ca18" absoluteBounds="0.765, 16.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bfc43d8-cd4f-4d83-83d3-74877833c855" absoluteBounds="9.75, 19.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNAttachFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8acd3fc-5762-45d0-9565-1143c33ac1b7" absoluteBounds="9.765, 20.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c34bf8e-69d7-462a-ae91-2ad1d0fdb683" absoluteBounds="3.75, 21.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNControlRunning" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a0cfce58-397c-4aca-bb63-f89d742d70b2" absoluteBounds="3.765, 22.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25f1ba3a-8dd0-4a8e-96da-e4f2845f4909" absoluteBounds="21.75, 13.75, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNDelegate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2873d63-2681-40e3-84e7-4ccff18f3f1d" absoluteBounds="21.765, 14.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="43f25a56-d7a2-4ddb-92ec-7e011bd86f32" absoluteBounds="21.75, 18.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNDelegateDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16bc4643-e324-4c53-9082-ee3457ee9618" absoluteBounds="21.765, 19.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bcf695f6-8e4d-48c6-af19-cead3d0ff751" absoluteBounds="21.75, 22.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNEDocumentQueue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4a6f9b7-3068-4513-aea6-0891e434f68c" absoluteBounds="21.765, 23.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f9d6019-9aec-4ebe-87ce-dbab1de37b70" absoluteBounds="24.75, 0.75, 2, 5.6169254557291666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNLineApprove" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3cd3b5fa-dce9-41cb-bf70-6f273b41f820" absoluteBounds="24.765, 1.21, 1.9700000000000002, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de3de248-a7ce-42f3-bab2-92fda1669bca" absoluteBounds="6.75, 24.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNLineNotifyLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3924a60-ad86-493c-8d1f-538340aac95b" absoluteBounds="6.765, 25.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae6ac4a3-adf2-4055-9db4-0827a57a0826" absoluteBounds="24.75, 7.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be31d889-148c-4be8-bf87-bde3013b9027" absoluteBounds="24.765, 8.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4515c21e-5d79-44b2-8680-202b8fd12e84" absoluteBounds="9.75, 24.75, 2, 14.655092773437502">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNMemo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6d2740f-21e8-44ae-81ef-606e0aa055b3" absoluteBounds="9.765, 25.21, 1.9700000000000002, 14.0950927734375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="702421f0-b152-4bdf-8bfa-2c286e580185" absoluteBounds="24.75, 10.75, 2, 4.2708154296874987">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNMemoForm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52444ef3-af79-4452-b810-66f5a5580199" absoluteBounds="24.765, 11.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee1bac74-3b10-44dc-bd1b-fdd9b8f4d121" absoluteBounds="24.75, 16.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNReferenceDoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e41719f4-aaf8-4812-bfe3-8558aa1c8bce" absoluteBounds="24.765, 17.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bd4e50d9-4863-495c-acef-1bccda4d4a63" absoluteBounds="24.75, 20.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNReleasedDocument" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ff2bf66-9357-43b9-9f80-b783f348a523" absoluteBounds="24.765, 21.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bac6f00e-5107-4f43-9e4f-c5db7c424591" absoluteBounds="24.75, 23.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNSendMail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ea417e8-40cb-4dce-b71d-c3470e1b55d3" absoluteBounds="24.765, 24.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07c0cb51-c5d0-4591-83ff-11150d1a41a1" absoluteBounds="0.75, 25.75, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNSubmitForm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58aa2185-0c5f-43bf-b5e8-8f77902e1b99" absoluteBounds="0.765, 26.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1cc48fac-c540-401a-96d4-46356be2c178" absoluteBounds="18.75, 25.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNUploadFileBuilder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b904de3f-60d6-48fd-9d2b-3cbc4c65cb3f" absoluteBounds="18.765, 26.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6b5274f4-a3c6-4be9-ad03-bb09d0c08121" absoluteBounds="27.75, 0.75, 2, 4.8477197265624987">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNUsageLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cdd38a5b-f5bb-4478-8abb-ba616b69479f" absoluteBounds="27.765, 1.21, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71293870-893e-4ed7-bb32-045a21e93009" absoluteBounds="27.75, 6.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/CHIATAIDataContext/TRNUserParticipate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6433d62d-0543-4023-9e73-28f2be8c499d" absoluteBounds="27.765, 7.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ce42125-0a31-42b1-9e7a-fe93bc568863" absoluteBounds="2.875, 5.5, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/CHIATAIDataContext/ViewEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b6b2117-aef1-49f1-899b-9b4799a8b659" absoluteBounds="2.89, 5.96, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
