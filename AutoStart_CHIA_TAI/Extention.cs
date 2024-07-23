@@ -26,7 +26,7 @@ namespace AutoStart_CHIA_TAI
             public const string _RequestCancel = "Request Cancel";
         }
 
-        public const string _ReqEmpCode = "CN660220";
+        public static string _ReqEmpCode = ConfigurationSettings.AppSettings["ReqEmpCode"];
         public const string _Temp = "TempAttachment";
 
         public static string _BaseAPI = ConfigurationSettings.AppSettings["APIUrl"];

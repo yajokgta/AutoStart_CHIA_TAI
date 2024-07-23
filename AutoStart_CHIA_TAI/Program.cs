@@ -64,7 +64,7 @@ namespace AutoStart_CHIA_TAI
                         objMemo.GroupTemplateName = mstTemplate.GroupTemplateName;
                         objMemo.RequestDate = DateTime.Now;
                         objMemo.CompanyId = 1;
-                        objMemo.CompanyName = CurrentCom.NameTh;
+                        objMemo.CompanyName = CurrentCom?.NameTh;
                         objMemo.MAdvancveForm = mstTemplate.AdvanceForm;
                         objMemo.TAdvanceForm = mstTemplate.AdvanceForm;
 
@@ -89,10 +89,18 @@ namespace AutoStart_CHIA_TAI
 
                         var businessName = mstTemplate.TemplateSubject.Split('-')?.Last();
 
+                        var oldMemo = (from memo in dbContext.TRNMemos
+                                       let memForm = (from f in dbContext.TRNMemoForms
+                                                      where f.MemoId == memo.MemoId && f.obj_label == "รหัสตำแหน่งงาน" && f.obj_value == positionWorkCode select f)
+                                       where memForm.Any()
+                                       select memo)
+                                       .OrderByDescending(o => o.RequestDate)
+                                       .FirstOrDefault();
+
                         var mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mstTemplate.AdvanceForm, positionWorkCode, "รหัสตำแหน่งงาน");
-                        mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mstTemplate.AdvanceForm, positionWorkName, "ชื่อตำแหน่งงาน");
-                        mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mstTemplate.AdvanceForm, businessName, "BU");
-                        mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mstTemplate.AdvanceForm, fileUploadPath, "รายละเอียดตำแหน่งงาน");
+                        mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mAdvanceForm, positionWorkName, "ชื่อตำแหน่งงาน");
+                        mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mAdvanceForm, businessName, "BU");
+                        mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mAdvanceForm, fileUploadPath, "รายละเอียดตำแหน่งงาน");
 
                         objMemo.MAdvancveForm = mAdvanceForm;
                         objMemo.MemoSubject = $"{mstTemplate.TemplateSubject}-{positionWorkCode}";
