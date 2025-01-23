@@ -29,7 +29,7 @@ namespace AutoStart_CHIA_TAI
                         var positionWorkName = string.Join(" ", modules);
 
                         var requester = dbContext.ViewEmployees.FirstOrDefault(x => x.EmployeeCode == Extension._ReqEmpCode);
-                        var CurrentCom = dbContext.MSTCompanies.FirstOrDefault(x => x.CompanyCode == requester.CompanyCode);
+                        var currentCom = dbContext.MSTCompanies.FirstOrDefault(x => x.CompanyCode == requester.CompanyCode);
                         string _CC = "";
 
                         TRNMemo objMemo = new TRNMemo();
@@ -63,8 +63,8 @@ namespace AutoStart_CHIA_TAI
                         objMemo.TemplateName = mstTemplate.TemplateName;
                         objMemo.GroupTemplateName = mstTemplate.GroupTemplateName;
                         objMemo.RequestDate = DateTime.Now;
-                        objMemo.CompanyId = 1;
-                        objMemo.CompanyName = CurrentCom?.NameTh;
+                        objMemo.CompanyId = currentCom?.CompanyId;
+                        objMemo.CompanyName = currentCom?.NameTh;
                         objMemo.MAdvancveForm = mstTemplate.AdvanceForm;
                         objMemo.TAdvanceForm = mstTemplate.AdvanceForm;
 
