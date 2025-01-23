@@ -20,7 +20,7 @@ namespace AutoStart_CHIA_TAI
                         var fileName = Path.GetFileNameWithoutExtension(file);
                         var modules = fileName.Split('_').ToList();
 
-                        var positionWorkCode = modules?[0];
+                        var positionWorkCode = modules.ElementAtOrDefault(0);
 
                         modules.RemoveAt(0);
 
@@ -91,11 +91,26 @@ namespace AutoStart_CHIA_TAI
 
                         var oldMemo = (from memo in dbContext.TRNMemos
                                        let memForm = (from f in dbContext.TRNMemoForms
-                                                      where f.MemoId == memo.MemoId && f.obj_label == "รหัสตำแหน่งงาน" && f.obj_value == positionWorkCode select f)
+                                                      where f.MemoId == memo.MemoId && f.obj_label == "รหัสตำแหน่งงาน" && f.obj_value == positionWorkCode select f).ToList()
                                        where memForm.Any()
                                        select memo)
                                        .OrderByDescending(o => o.RequestDate)
                                        .FirstOrDefault();
+                        if (oldMemo != null)
+                        {
+                            var refMem = new TRNReferenceDoc()
+                            {
+                                RefDocID = 0,
+                                MemoID = objMemo.MemoId,
+                                MemoRefDocID = oldMemo.MemoId,
+                                DocumentNo = oldMemo.DocumentNo,
+                                TemplateId = oldMemo.TemplateId
+                            };
+
+                            dbContext.TRNReferenceDocs.InsertOnSubmit(refMem);
+
+                            oldMemo.StatusName = Extension.Status._Cancelled;
+                        }
 
                         var mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mstTemplate.AdvanceForm, positionWorkCode, "รหัสตำแหน่งงาน");
                         mAdvanceForm = AdvanceFormExt.ReplaceDataProcess(mAdvanceForm, positionWorkName, "ชื่อตำแหน่งงาน");
